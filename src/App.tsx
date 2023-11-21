@@ -1,10 +1,10 @@
 import { Container } from "@mantine/core";
-import DatePicker from "./components/DatePicker";
+import SummaryComponent from "./components/Summary";
 
 function App() {
   return (
-    <Container py="md" w="100%">
-      <DatePicker />
+    <Container py="md" w={600}>
+      <SummaryComponent />
     </Container>
   );
 }
